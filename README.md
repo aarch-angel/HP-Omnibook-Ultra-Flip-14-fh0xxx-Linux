@@ -102,3 +102,5 @@ See [this thread](https://discussion.fedoraproject.org/t/unable-to-activate-hdr/
 For whatever reason, enabling HDR increases the maximum brightness of the display, so I would reccomend doing this even if you don't have any HDR content.
 
 In KDE, I would make sure to calibrate HDR brightness and set sRGB colour intensity in the Display Settings. I found a brightness of 590 cd/m^2 for both maximum and paper white luminance to be best, as well as setting sRGB intensity to 100%.
+
+In Gnome HDR can be forced with ```gdctl set --logical-monitor --monitor eDP-1 --color-mode bt2100 --primary```
